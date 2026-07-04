@@ -57,7 +57,7 @@ export default function Hero() {
           >
             Adnan Mahar and Co., led by a CA Finalist (ICAP), delivers audit,
             accounting and tax advisory for startups, SMEs, corporations,
-            nonprofits and international businesses, with the rigor of a
+            nonprofits, international businesses, and individuals, with the rigor of a
             Big-Four training and the responsiveness of an independent
             practice.
           </motion.p>

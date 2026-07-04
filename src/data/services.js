@@ -32,7 +32,7 @@ export const categories = [
     services: [
       {
         title: 'Executive Summary',
-        blurb: 'Professional accounting, auditing, and tax solutions for startups, SMEs, corporations, nonprofits, and international businesses.',
+        blurb: 'Professional accounting, auditing, and tax solutions for startups, SMEs, corporations, nonprofits, international businesses, and individuals.',
         icon: 'FileText',
       },
       {
