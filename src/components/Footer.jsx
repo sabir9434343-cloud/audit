@@ -5,7 +5,7 @@ export default function Footer() {
         <p className="font-serif text-white font-semibold">
           Adnan Mahar <span className="text-gold-500">& Co.</span>
           <span className="ml-2 text-xs font-sans font-normal text-slate-500">
-            CA & ACCA Finalist (ICAP)
+            CA Finalist (ICAP)
           </span>
         </p>
         <p className="text-xs text-slate-500 text-center">

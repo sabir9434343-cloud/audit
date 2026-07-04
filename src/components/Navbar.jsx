@@ -32,7 +32,7 @@ export default function Navbar() {
             Adnan Mahar <span className="text-gold-500">& Co.</span>
           </span>
           <span className="text-[11px] uppercase tracking-[0.2em] text-gold-400/80">
-            CA & ACCA Finalist (ICAP)
+            CA Finalist (ICAP)
           </span>
         </a>
 

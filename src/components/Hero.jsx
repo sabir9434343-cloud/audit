@@ -5,7 +5,7 @@ import CountUp from './CountUp'
 const badges = [
   { icon: ShieldCheck, label: 'IFRS & ISA Aligned' },
   { icon: Globe2, label: 'Global Remote Delivery' },
-  { icon: Award, label: 'CA & ACCA Finalist Led' },
+  { icon: Award, label: 'CA Finalist Led' },
 ]
 
 export default function Hero() {
@@ -55,7 +55,7 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.15 }}
             className="mt-6 max-w-xl text-lg text-slate-300"
           >
-            Adnan Mahar and Co., led by a CA & ACCA Finalist (ICAP), delivers audit,
+            Adnan Mahar and Co., led by a CA Finalist (ICAP), delivers audit,
             accounting and tax advisory for startups, SMEs, corporations,
             nonprofits and international businesses, with the rigor of a
             Big-Four training and the responsiveness of an independent
