@@ -24,7 +24,7 @@ export default function About() {
             Big-Four discipline, delivered as an independent practice
           </h2>
           <p className="mt-5 text-slate-400 leading-relaxed">
-            Led by Adnan Mahar, a CA Finalist with ICAP, Adnan Mahar and Co.
+            Led by Adnan Mahar, a CA & ACCA Finalist with ICAP, Adnan Mahar and Co.
             brings institutional-grade audit, accounting and tax methodology
             to clients who need direct, senior-level attention, without the
             overhead of a large firm.
