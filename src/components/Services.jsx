@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
+import { motion } from 'framer-motion'
 import { categories } from '../data/services'
 import Icon from './Icon'
 import ServiceCard from './ServiceCard'
@@ -42,25 +42,22 @@ export default function Services() {
           ))}
         </div>
 
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={active}
-            initial={{ opacity: 0, y: 12 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -12 }}
-            transition={{ duration: 0.3 }}
-          >
-            <p className="mt-8 text-center text-slate-400 max-w-2xl mx-auto">
-              {current.tagline}
-            </p>
+        <motion.div
+          key={active}
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.3 }}
+        >
+          <p className="mt-8 text-center text-slate-400 max-w-2xl mx-auto">
+            {current.tagline}
+          </p>
 
-            <div className="mt-10 grid md:grid-cols-2 xl:grid-cols-3 gap-5">
-              {current.services.map((service, i) => (
-                <ServiceCard key={service.title} service={service} index={i} />
-              ))}
-            </div>
-          </motion.div>
-        </AnimatePresence>
+          <div className="mt-10 grid md:grid-cols-2 xl:grid-cols-3 gap-5">
+            {current.services.map((service, i) => (
+              <ServiceCard key={service.title} service={service} index={i} />
+            ))}
+          </div>
+        </motion.div>
       </div>
     </section>
   )

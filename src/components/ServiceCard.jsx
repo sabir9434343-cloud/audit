@@ -2,7 +2,6 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { ChevronDown } from 'lucide-react'
 import Icon from './Icon'
-import { engagementStandard } from '../data/services'
 
 export default function ServiceCard({ service, index }) {
   const [open, setOpen] = useState(false)
@@ -50,9 +49,9 @@ export default function ServiceCard({ service, index }) {
             className="overflow-hidden"
           >
             <div className="px-6 pb-6 pt-1 grid sm:grid-cols-3 gap-5 border-t border-white/5 mt-1">
-              <Column title="Scope" items={engagementStandard.scope.slice(0, 4)} />
-              <Column title="Deliverables" items={engagementStandard.deliverables} />
-              <Column title="Client Benefits" items={engagementStandard.benefits.slice(0, 4)} />
+              <Column title="Scope" items={service.scope} />
+              <Column title="Deliverables" items={service.deliverables} />
+              <Column title="Client Benefits" items={service.benefits} />
             </div>
           </motion.div>
         )}
