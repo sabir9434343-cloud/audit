@@ -1,9 +1,12 @@
 import { motion } from 'framer-motion'
 import { ArrowRight, ShieldCheck, Globe2, Award } from 'lucide-react'
 import CountUp from './CountUp'
+import { categories } from '../data/services'
+
+const totalServices = categories.reduce((sum, cat) => sum + cat.services.length, 0)
 
 const badges = [
-  { icon: ShieldCheck, label: 'IFRS & ISA Aligned' },
+  { icon: ShieldCheck, label: 'IFRS Aligned' },
   { icon: Globe2, label: 'Global Remote Delivery' },
   { icon: Award, label: 'CA Finalist Led' },
 ]
@@ -46,7 +49,7 @@ export default function Hero() {
             className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.08] text-white"
           >
             Worldwide Accounting,{' '}
-            <span className="text-gradient-gold">Auditing &amp; Tax</span> Services
+            <span className="text-gradient-gold">Legal &amp; Tax</span> Services
           </motion.h1>
 
           <motion.p
@@ -55,11 +58,11 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.15 }}
             className="mt-6 max-w-xl text-lg text-slate-300"
           >
-            Adnan Mahar and Co., led by a CA Finalist (ICAP), delivers audit,
-            accounting and tax advisory for startups, SMEs, corporations,
-            nonprofits, international businesses, and individuals, with the rigor of a
-            Big-Four training and the responsiveness of an independent
-            practice.
+            Adnan Mahar and Co., led by a CA Finalist (ICAP), delivers
+            accounting, legal and tax advisory for individuals, startups,
+            SMEs, corporations, nonprofits, and international businesses,
+            with the rigor of a Big-Four training and the responsiveness of
+            an independent practice.
           </motion.p>
 
           <motion.div
@@ -109,14 +112,14 @@ export default function Hero() {
               Engagement Snapshot
             </p>
             <div className="grid grid-cols-2 gap-6">
-              <Stat value={28} suffix="" label="Service Lines" />
-              <Stat value={4} suffix="" label="Practice Areas" />
-              <Stat value={100} suffix="%" label="IFRS / ISA Aligned" />
+              <Stat value={totalServices} suffix="" label="Service Lines" />
+              <Stat value={categories.length} suffix="" label="Practice Areas" />
+              <Stat value={100} suffix="%" label="IFRS Aligned" />
               <Stat value={24} suffix="/7" label="Cloud Access" />
             </div>
             <div className="mt-8 border-t border-white/10 pt-6">
               <p className="text-sm text-slate-300 italic leading-relaxed">
-                "Engagement delivered in line with IFRS, ISAs and regulatory
+                "Engagement delivered in line with IFRS and regulatory
                 requirements, ensuring high-quality outcomes and client
                 satisfaction."
               </p>

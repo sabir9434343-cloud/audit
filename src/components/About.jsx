@@ -5,7 +5,7 @@ import SectionHeading from './SectionHeading'
 const values = [
   { icon: Scale, title: 'Ethics First', text: 'Independence and objectivity in every opinion and recommendation.' },
   { icon: Lock, title: 'Confidentiality', text: 'Secure, cloud-based document handling for sensitive financial data.' },
-  { icon: Sparkles, title: 'Quality Standards', text: 'IFRS and ISA-aligned methodology on every engagement.' },
+  { icon: Sparkles, title: 'Quality Standards', text: 'IFRS-aligned methodology on every engagement.' },
   { icon: HeartHandshake, title: 'Client Philosophy', text: 'Responsive, partner-level attention regardless of engagement size.' },
 ]
 
@@ -25,7 +25,7 @@ export default function About() {
           </h2>
           <p className="mt-5 text-slate-400 leading-relaxed">
             Led by Adnan Mahar, a CA Finalist with ICAP, Adnan Mahar and Co.
-            brings institutional-grade audit, accounting and tax methodology
+            brings institutional-grade accounting, legal, and tax methodology
             to clients who need direct, senior-level attention, without the
             overhead of a large firm.
           </p>

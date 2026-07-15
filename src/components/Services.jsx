@@ -5,6 +5,8 @@ import Icon from './Icon'
 import ServiceCard from './ServiceCard'
 import SectionHeading from './SectionHeading'
 
+const totalServices = categories.reduce((sum, cat) => sum + cat.services.length, 0)
+
 export default function Services() {
   const [active, setActive] = useState(categories[0].id)
   const current = categories.find((c) => c.id === active)
@@ -15,7 +17,7 @@ export default function Services() {
         <SectionHeading
           eyebrow="Scope of Services"
           title="A full-service practice, organized around your needs"
-          description="28 service lines across four practice areas: each engagement follows the same disciplined standard of assessment, customized planning, delivery, and reporting."
+          description={`${totalServices} service lines across ${categories.length} practice areas: each engagement follows the same disciplined standard of assessment, customized planning, delivery, and reporting.`}
         />
 
         <div className="mt-12 flex flex-wrap justify-center gap-3">

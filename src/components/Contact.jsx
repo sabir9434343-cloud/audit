@@ -41,7 +41,7 @@ export default function Contact() {
               </p>
               <ul className="space-y-2 text-sm text-slate-300">
                 <li>• Direct access to a CA-finalist-led senior review</li>
-                <li>• IFRS / ISA-aligned methodology</li>
+                <li>• IFRS-aligned methodology</li>
                 <li>• Secure, cloud-based collaboration</li>
                 <li>• Transparent, fixed-scope engagement plans</li>
               </ul>
@@ -71,7 +71,7 @@ export default function Contact() {
               >
                 <option value="">Select a service area</option>
                 <option>Accounting & Bookkeeping</option>
-                <option>Audit & Assurance</option>
+                <option>Legal & Registrations</option>
                 <option>Tax Advisory</option>
                 <option>Virtual CFO</option>
                 <option>Other</option>

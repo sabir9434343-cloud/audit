@@ -17,7 +17,7 @@ export default function Process() {
         <SectionHeading
           eyebrow="Client Engagement Process"
           title="One disciplined lifecycle, every engagement"
-          description="Whether it's a single audit opinion or an ongoing virtual CFO retainer, every engagement moves through the same five stages."
+          description="Whether it's a single company registration or an ongoing virtual CFO retainer, every engagement moves through the same five stages."
         />
 
         <div className="mt-16 relative">

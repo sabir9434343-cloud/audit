@@ -7,11 +7,11 @@ export const categories = [
     services: [
       {
         title: 'Executive Summary',
-        blurb: 'Professional accounting, auditing, and tax solutions for startups, SMEs, corporations, nonprofits, international businesses, and individuals.',
+        blurb: 'Professional accounting, legal, and tax solutions for individuals, startups, SMEs, corporations, nonprofits, and international businesses.',
         icon: 'FileText',
         scope: [
           'Understanding client industry, size, and objectives',
-          'Mapping required service lines across accounting, audit, and tax',
+          'Mapping required service lines across accounting, legal, and tax',
           'Proposing an engagement structure and timeline',
         ],
         deliverables: [
@@ -130,7 +130,7 @@ export const categories = [
         benefits: [
           'Books that are always up to date',
           'Fewer reconciliation errors',
-          'Audit-ready records year-round',
+          'Reliable, well-documented records year-round',
         ],
       },
       {
@@ -296,169 +296,29 @@ export const categories = [
     ],
   },
   {
-    id: 'audit',
-    label: 'Audit & Assurance',
-    icon: 'ClipboardCheck',
-    tagline: 'Independent assurance, governance, and risk services built on ISA standards.',
+    id: 'legal',
+    label: 'Legal & Registrations',
+    icon: 'Scale',
+    tagline: 'Business formation, company registration, and statutory filing support.',
     services: [
       {
-        title: 'Audit & Assurance Overview',
-        blurb: 'Independent assurance and governance-focused services.',
-        icon: 'ClipboardCheck',
+        title: 'Business & Company Registrations',
+        blurb: 'Business structuring, company incorporation, and statutory registration support.',
+        icon: 'Stamp',
         scope: [
-          'Audit planning and risk assessment',
-          'Materiality determination',
-          'Independence and engagement acceptance procedures',
+          'Business structure advice (sole proprietorship, partnership, or company)',
+          'Company incorporation and registration with relevant authorities',
+          'Statutory licenses and permit applications',
         ],
         deliverables: [
-          'Audit engagement letter',
-          'Audit plan and timeline',
-          'Risk assessment memo',
+          'Certificate of incorporation or registration',
+          'Company statutory documents (memorandum, articles, etc.)',
+          'Registered business and tax identification numbers',
         ],
         benefits: [
-          'Independent assurance stakeholders can trust',
-          'Early identification of risk areas',
-          'A smooth, well-planned audit process',
-        ],
-      },
-      {
-        title: 'Internal Audit Services',
-        blurb: 'Risk-based audits, control testing, and audit reporting.',
-        icon: 'SearchCheck',
-        scope: [
-          'Risk-based audit universe development',
-          'Control testing and process walkthroughs',
-          'Findings reporting to management and the board',
-        ],
-        deliverables: [
-          'Internal audit plan',
-          'Control testing workpapers',
-          'Internal audit report with recommendations',
-        ],
-        benefits: [
-          'Stronger internal controls',
-          'Early detection of fraud and error',
-          'Board-level visibility into risk',
-        ],
-      },
-      {
-        title: 'External Audit Support',
-        blurb: 'Audit preparation, schedules, and auditor liaison support.',
-        icon: 'FileSearch',
-        scope: [
-          'Audit schedule and PBC list preparation',
-          'Liaison with external auditors',
-          'Query resolution and evidence gathering',
-        ],
-        deliverables: [
-          'Prepared-by-client (PBC) schedules',
-          'Audit query log',
-          'Supporting evidence packs',
-        ],
-        benefits: [
-          'A faster, smoother external audit',
-          'Fewer audit adjustments',
-          'Less management time spent on the audit',
-        ],
-      },
-      {
-        title: 'Internal Controls Review',
-        blurb: 'Design and assessment of financial and operational controls.',
-        icon: 'Lock',
-        scope: [
-          'Process walkthroughs and control mapping',
-          'Design and operating effectiveness testing',
-          'Gap analysis against best practice',
-        ],
-        deliverables: [
-          'Controls matrix',
-          'Gap analysis report',
-          'Remediation action plan',
-        ],
-        benefits: [
-          'Reduced operational and fraud risk',
-          'A stronger governance framework',
-          'An audit-ready control environment',
-        ],
-      },
-      {
-        title: 'Risk Management Services',
-        blurb: 'Enterprise risk assessments and mitigation planning.',
-        icon: 'ShieldAlert',
-        scope: [
-          'Enterprise risk identification workshops',
-          'Risk scoring and heat-mapping',
-          'Mitigation and monitoring plan design',
-        ],
-        deliverables: [
-          'Risk register',
-          'Risk heat map',
-          'Mitigation action plan',
-        ],
-        benefits: [
-          'Proactive identification of risk',
-          'Board-level risk oversight',
-          'Fewer costly surprises',
-        ],
-      },
-      {
-        title: 'Compliance Audits',
-        blurb: 'Regulatory and policy compliance reviews.',
-        icon: 'ListChecks',
-        scope: [
-          'Regulatory requirement mapping',
-          'Policy and procedure review',
-          'Compliance testing and sampling',
-        ],
-        deliverables: [
-          'Compliance checklist',
-          'Findings and exceptions report',
-          'Corrective action tracker',
-        ],
-        benefits: [
-          'Reduced risk of regulatory penalties',
-          'Demonstrated good governance',
-          'Confidence for regulators and stakeholders',
-        ],
-      },
-      {
-        title: 'Fraud Risk Assessment',
-        blurb: 'Fraud prevention, detection procedures, and investigation support.',
-        icon: 'Fingerprint',
-        scope: [
-          'Fraud risk identification by process area',
-          'Red-flag and anomaly testing',
-          'Investigation support where required',
-        ],
-        deliverables: [
-          'Fraud risk assessment report',
-          'Red-flag testing results',
-          'Investigation findings memo, where applicable',
-        ],
-        benefits: [
-          'Reduced exposure to fraud',
-          'Faster detection of irregularities',
-          'A protected company reputation',
-        ],
-      },
-      {
-        title: 'Due Diligence Services',
-        blurb: 'Financial and operational due diligence for investors and acquisitions.',
-        icon: 'Search',
-        scope: [
-          'Financial and operational data room review',
-          'Quality of earnings analysis',
-          'Risk and red-flag identification for deal teams',
-        ],
-        deliverables: [
-          'Due diligence report',
-          'Quality of earnings summary',
-          'Risk and red-flag register',
-        ],
-        benefits: [
-          'Informed investment or acquisition decisions',
-          'A stronger negotiating position',
-          'Fewer post-deal surprises',
+          'A legally compliant business setup from day one',
+          'Faster time to market with the right registrations',
+          'Reduced risk of regulatory rejection or delay',
         ],
       },
     ],
@@ -506,7 +366,7 @@ export const categories = [
         benefits: [
           'Accurate, on-time corporate filings',
           'An optimized tax position',
-          'Reduced audit and penalty risk',
+          'Reduced penalty and compliance risk',
         ],
       },
       {
@@ -597,15 +457,15 @@ export const caseStudy = {
   client: 'Confidential Insurance Client',
   industry: 'Insurance & Financial Services',
   summary:
-    'Provided end-to-end audit, accounting and tax services ensuring compliance, risk mitigation and financial accuracy.',
+    'Provided end-to-end accounting, legal and tax services ensuring compliance, risk mitigation and financial accuracy.',
   challenge: 'Regulatory complexity and high-risk financial estimates.',
-  approach: 'Reviewed actuarial estimates, ensured IFRS compliance and validated disclosures.',
+  approach: 'Reviewed actuarial estimates, ensured IFRS compliance and validated statutory filings.',
   results: ['Improved compliance', 'Reduced regulatory risk', 'Accurate financial reporting'],
   services: [
-    { area: 'Audit', deliverables: 'Risk assessment, substantive testing, audit opinion' },
     { area: 'Accounting', deliverables: 'Financial statements, reconciliations, reporting' },
+    { area: 'Legal', deliverables: 'Statutory filings, compliance documentation, registration review' },
     { area: 'Tax', deliverables: 'Tax computation, compliance, advisory' },
   ],
   conclusion:
-    'Engagement delivered in line with IFRS, ISAs and regulatory requirements, ensuring high-quality outcomes and client satisfaction.',
+    'Engagement delivered in line with IFRS and regulatory requirements, ensuring high-quality outcomes and client satisfaction.',
 }
