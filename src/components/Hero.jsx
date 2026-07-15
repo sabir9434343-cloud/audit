@@ -49,7 +49,7 @@ export default function Hero() {
             className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.08] text-white"
           >
             Worldwide Accounting,{' '}
-            <span className="text-gradient-gold">Legal &amp; Tax</span> Services
+            <span className="text-gradient-gold">Tax &amp; Legal</span> Services
           </motion.h1>
 
           <motion.p
@@ -59,7 +59,7 @@ export default function Hero() {
             className="mt-6 max-w-xl text-lg text-slate-300"
           >
             Adnan Mahar and Co., led by a CA Finalist (ICAP), delivers
-            accounting, legal and tax advisory for individuals, startups,
+            accounting, tax and legal advisory for individuals, startups,
             SMEs, corporations, nonprofits, and international businesses,
             with the rigor of a Big-Four training and the responsiveness of
             an independent practice.

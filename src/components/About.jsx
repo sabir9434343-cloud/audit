@@ -25,7 +25,7 @@ export default function About() {
           </h2>
           <p className="mt-5 text-slate-400 leading-relaxed">
             Led by Adnan Mahar, a CA Finalist with ICAP, Adnan Mahar and Co.
-            brings institutional-grade accounting, legal, and tax methodology
+            brings institutional-grade accounting, tax, and legal methodology
             to clients who need direct, senior-level attention, without the
             overhead of a large firm.
           </p>

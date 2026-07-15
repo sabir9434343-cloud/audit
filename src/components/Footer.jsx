@@ -9,7 +9,7 @@ export default function Footer() {
           </span>
         </p>
         <p className="text-xs text-slate-500 text-center">
-          © {new Date().getFullYear()} Adnan Mahar and Co., Accounting, Legal & Tax Advisory. All rights reserved.
+          © {new Date().getFullYear()} Adnan Mahar and Co., Accounting, Tax & Legal Advisory. All rights reserved.
         </p>
       </div>
     </footer>

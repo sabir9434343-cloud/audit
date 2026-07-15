@@ -7,11 +7,11 @@ export const categories = [
     services: [
       {
         title: 'Executive Summary',
-        blurb: 'Professional accounting, legal, and tax solutions for individuals, startups, SMEs, corporations, nonprofits, and international businesses.',
+        blurb: 'Professional accounting, tax, and legal solutions for individuals, startups, SMEs, corporations, nonprofits, and international businesses.',
         icon: 'FileText',
         scope: [
           'Understanding client industry, size, and objectives',
-          'Mapping required service lines across accounting, legal, and tax',
+          'Mapping required service lines across accounting, tax, and legal',
           'Proposing an engagement structure and timeline',
         ],
         deliverables: [
@@ -296,34 +296,6 @@ export const categories = [
     ],
   },
   {
-    id: 'legal',
-    label: 'Legal & Registrations',
-    icon: 'Scale',
-    tagline: 'Business formation, company registration, and statutory filing support.',
-    services: [
-      {
-        title: 'Business & Company Registrations',
-        blurb: 'Business structuring, company incorporation, and statutory registration support.',
-        icon: 'Stamp',
-        scope: [
-          'Business structure advice (sole proprietorship, partnership, or company)',
-          'Company incorporation and registration with relevant authorities',
-          'Statutory licenses and permit applications',
-        ],
-        deliverables: [
-          'Certificate of incorporation or registration',
-          'Company statutory documents (memorandum, articles, etc.)',
-          'Registered business and tax identification numbers',
-        ],
-        benefits: [
-          'A legally compliant business setup from day one',
-          'Faster time to market with the right registrations',
-          'Reduced risk of regulatory rejection or delay',
-        ],
-      },
-    ],
-  },
-  {
     id: 'tax',
     label: 'Tax Advisory',
     icon: 'Landmark',
@@ -451,20 +423,48 @@ export const categories = [
       },
     ],
   },
+  {
+    id: 'legal',
+    label: 'Legal & Registrations',
+    icon: 'Scale',
+    tagline: 'Business formation, company registration, and statutory filing support.',
+    services: [
+      {
+        title: 'Business & Company Registrations',
+        blurb: 'Business structuring, company incorporation, and statutory registration support.',
+        icon: 'Stamp',
+        scope: [
+          'Business structure advice (sole proprietorship, partnership, or company)',
+          'Company incorporation and registration with relevant authorities',
+          'Statutory licenses and permit applications',
+        ],
+        deliverables: [
+          'Certificate of incorporation or registration',
+          'Company statutory documents (memorandum, articles, etc.)',
+          'Registered business and tax identification numbers',
+        ],
+        benefits: [
+          'A legally compliant business setup from day one',
+          'Faster time to market with the right registrations',
+          'Reduced risk of regulatory rejection or delay',
+        ],
+      },
+    ],
+  },
 ]
 
 export const caseStudy = {
   client: 'Confidential Insurance Client',
   industry: 'Insurance & Financial Services',
   summary:
-    'Provided end-to-end accounting, legal and tax services ensuring compliance, risk mitigation and financial accuracy.',
+    'Provided end-to-end accounting, tax and legal services ensuring compliance, risk mitigation and financial accuracy.',
   challenge: 'Regulatory complexity and high-risk financial estimates.',
   approach: 'Reviewed actuarial estimates, ensured IFRS compliance and validated statutory filings.',
   results: ['Improved compliance', 'Reduced regulatory risk', 'Accurate financial reporting'],
   services: [
     { area: 'Accounting', deliverables: 'Financial statements, reconciliations, reporting' },
-    { area: 'Legal', deliverables: 'Statutory filings, compliance documentation, registration review' },
     { area: 'Tax', deliverables: 'Tax computation, compliance, advisory' },
+    { area: 'Legal', deliverables: 'Statutory filings, compliance documentation, registration review' },
   ],
   conclusion:
     'Engagement delivered in line with IFRS and regulatory requirements, ensuring high-quality outcomes and client satisfaction.',

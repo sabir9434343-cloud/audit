@@ -71,8 +71,8 @@ export default function Contact() {
               >
                 <option value="">Select a service area</option>
                 <option>Accounting & Bookkeeping</option>
-                <option>Legal & Registrations</option>
                 <option>Tax Advisory</option>
+                <option>Legal & Registrations</option>
                 <option>Virtual CFO</option>
                 <option>Other</option>
               </select>
